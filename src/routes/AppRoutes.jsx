@@ -11,7 +11,7 @@ import PrivateRoute from '../components/PrivateRoute';
 import ActiveAccount from '../components/Registration/ActiveAccount';
 import DashboardLayout from '../layouts/DashboardLayout';
 import Dashboard from '../pages/Dashboard';
-import Profile from '../pages/profile';
+import Profile from '../pages/Profile';
 import ProductDetials from '../pages/ProductDetials';
 import Cart from '../pages/Cart';
 import Orders from '../pages/Orders';
