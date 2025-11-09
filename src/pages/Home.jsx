@@ -1,0 +1,21 @@
+import React from 'react';
+import CarouselSlide from '../components/Home/Carousel/CarouselSlide';
+import HeroCarousel from '../components/Home/Carousel/HeroCarousel';
+import Features from '../components/Home/Features';
+import Product from '../components/Products/Product';
+import DiscountSection from '../components/Home/Discount/DiscountSection';
+import Category from '../components/Home/Categories/category';
+
+const Home = () => {
+    return (
+        <div>
+            <HeroCarousel />
+            <Features />
+            <Category />
+            <Product />
+            <DiscountSection />
+        </div>
+    );
+};
+
+export default Home;
