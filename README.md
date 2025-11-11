@@ -1,29 +1,29 @@
-```markdown
 # Phimart-client
 
-Phimart-client is the frontend application for Phimart — an e-commerce storefront UI. This repository contains the client-side code for browsing products, viewing product details, managing a shopping cart, and performing a client-side checkout flow (backend integration required for payments, orders and authentication).
+**Phimart-client** is the frontend application for **Phimart** — an e-commerce storefront UI.  
+This repository contains the client-side code for browsing products, viewing product details, managing a shopping cart, and performing a client-side checkout flow (backend integration required for payments, orders, and authentication).
 
-This README reflects the actual technologies used in the project (taken from package.json) and lists the frontend features and basic developer instructions.
+This README reflects the actual technologies used in the project (from `package.json`) and lists the frontend features and basic developer instructions.
 
 ---
 
-## Table of contents
+## 📚 Table of Contents
 
 - [Features](#features)
-- [Tech stack](#tech-stack)
+- [Tech Stack](#tech-stack)
 - [Demo](#demo)
-- [Getting started](#getting-started)
+- [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Install & run](#install--run)
+  - [Install & Run](#install--run)
   - [Build](#build)
-- [Project structure (approx.)](#project-structure-approx)
-- [How to use the app](#how-to-use-the-app)
+- [Project Structure (approx.)](#project-structure-approx)
+- [How to Use the App](#how-to-use-the-app)
 - [Contributing](#contributing)
-- [License & contact](#license--contact)
+- [License & Contact](#license--contact)
 
 ---
 
-## Features
+## ✨ Features
 
 This frontend focuses on essential e-commerce functionality:
 
@@ -36,13 +36,13 @@ This frontend focuses on essential e-commerce functionality:
 - Reusable UI components and simple client-side form validation
 - Basic accessibility considerations and keyboard-navigable controls
 
-Note: Authentication, payment processing, order persistence, and any server-side logic must be connected via an API — the UI provides the client-side screens and flows.
+> **Note:** Authentication, payment processing, order persistence, and any server-side logic must be connected via an API — this UI provides only the client-side screens and flows.
 
 ---
 
-## Tech stack
+## 🧩 Tech Stack
 
-Only the actual technologies used in this repository (from package.json):
+Technologies used in this repository (from `package.json`):
 
 - React
 - Vite (build & dev server)
@@ -54,99 +54,31 @@ Only the actual technologies used in this repository (from package.json):
 - Swiper
 - react-icons
 - ESLint
-- Type definitions present: @types/react, @types/react-dom
-
-No additional frameworks or advanced infra are included in this project.
+- Type definitions: `@types/react`, `@types/react-dom`
 
 ---
 
-## Demo
+## 🚀 Demo
 
-If you have a deployed site, add its URL here:
-- Live site: (add your deployment URL)
+If deployed, add your URL here:
 
-Add screenshots to docs/ or the repo root for visual reference.
+- **Live Site:** https://phimart-client-khaki.vercel.app/
+
+You can also include screenshots in a `docs/` folder or the repo root.
 
 ---
 
-## Getting started
+## 🧰 Getting Started
 
 ### Prerequisites
 
-- Node.js (14+ recommended)
-- npm, yarn or pnpm
+- Node.js (v14+ recommended)
+- npm, yarn, or pnpm
 
-### Install & run
+### Install & Run
 
-Clone repository and install dependencies:
-
+```bash
 git clone https://github.com/saif-dev-19/Phimart-client.git
 cd Phimart-client
 npm install
-
-Start development server:
-
 npm run dev
-
-Open the address shown by Vite (usually http://localhost:5173).
-
-### Build
-
-Create a production build:
-
-npm run build
-
-Preview the production build locally:
-
-npm run preview
-
----
-
-## Project structure (approx.)
-
-- public/ — static files (index.html, icons)
-- src/
-  - assets/ — images, fonts
-  - components/ — reusable UI components (buttons, cards, forms)
-  - pages/ — page-level components (Home, Catalog, Product, Cart, Checkout)
-  - services/ — API wrappers (axios instances)
-  - hooks/ — React hooks used in app
-  - styles/ — Tailwind config and global styles
-  - main.jsx, App.jsx — app entry and routing
-- package.json
-- README.md
-
-Adjust paths if your repo differs.
-
----
-
-## How to use the app
-
-- Browse the catalog on the home or catalog pages.
-- Click a product to open its detail page and add it to the cart.
-- Open the cart to change quantities or remove items.
-- Proceed to checkout to fill shipping/billing details (connect backend to complete orders).
-
----
-
-## Contributing
-
-1. Fork the repository
-2. Create a branch: git checkout -b feat/your-feature
-3. Commit: git commit -m "Add feature"
-4. Push: git push origin feat/your-feature
-5. Open a pull request
-
-Please follow existing code style and ESLint rules.
-
----
-
-## License & contact
-
-Add a LICENSE file if you want to publish under a specific license (MIT, Apache, etc.).
-
-Maintainer: saif-dev-19  
-Repo: https://github.com/saif-dev-19/Phimart-client
-
-If you want, I can update this README with exact screenshots, environment variable keys you use, or tailor instructions for yarn/pnpm instead of npm.
-```
